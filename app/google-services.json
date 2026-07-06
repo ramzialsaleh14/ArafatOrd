@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "37320676685",
+    "project_id": "arafatord",
+    "storage_bucket": "arafatord.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37320676685:android:ff0976448e0b31ad119304",
+        "android_client_info": {
+          "package_name": "com.puresoft.arafatOrd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF0n-Rt4oTeoH3fVtgZ_8akwOc5Gi9Go8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

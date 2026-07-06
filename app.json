@@ -1,32 +1,64 @@
 {
   "expo": {
-    "name": "JamilOdehHRApp",
-    "slug": "JamilOdehHRApp",
-    "version": "1.0.0",
+    "name": "Arafat Orders",
+    "slug": "ArafatOrd",
+    "version": "2.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "owner": "ramzialsaleh14",
+    "icon": "./assets/logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "enabled": true,
+      "url": "https://u.expo.dev/c26b9c03-d6bf-4966-8f12-6fb9fa577ace"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+      "bundleIdentifier": "com.puresoft.arafatOrd",
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
       }
+    },
+    "sdkVersion": "51.0.0",
+    "android": {
+      "package": "com.puresoft.arafatOrd",
+      "versionCode": 2,
+      "googleServicesFile": "./app/google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "MEDIA_LIBRARY",
+        "NOTIFICATIONS",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA"
+      ],
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "",
+    "extra": {
+      "eas": {
+        "projectId": "a4ba0d29-9005-471a-b9fe-668eefcfc944"
+      }
+    },
+    "plugins": [
+      "expo-localization",
+      "expo-secure-store",
+      "expo-asset"
+    ]
   }
 }
