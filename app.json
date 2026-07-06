@@ -6,11 +6,6 @@
     "orientation": "portrait",
     "owner": "ramzialsaleh14",
     "icon": "./assets/logo.png",
-    "splash": {
-      "image": "./assets/logo.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "updates": {
       "fallbackToCacheTimeout": 0,
       "enabled": true,
