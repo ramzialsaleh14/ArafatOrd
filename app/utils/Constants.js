@@ -1,9 +1,9 @@
 import { Platform } from "react-native";
 // Urls
-export const appVersion = "v1.4.9";
-export const serverBaseUrl = "http://109.107.244.79:9191";
+export const appVersion = "v1.5.0";
+export const serverBaseUrl = "https://arafatmills.puresoftjo.com";
 //export const serverBaseUrl = "http://192.168.1.231:8080";
-export const serverPublicBaseUrl = "http://109.107.244.79:9191";
+export const serverPublicBaseUrl = "https://arafatmills.puresoftjo.com";
 //export const serverPublicBaseUrl = "http://192.168.1.231:8080";
 export const pickServerUrl =
   serverBaseUrl +

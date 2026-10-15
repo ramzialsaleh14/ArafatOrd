@@ -9,7 +9,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0,
       "enabled": true,
-      "url": "https://u.expo.dev/c26b9c03-d6bf-4966-8f12-6fb9fa577ace"
+      "url": "https://u.expo.dev/a4ba0d29-9005-471a-b9fe-668eefcfc944"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -31,6 +31,13 @@
         "backgroundColor": "#FFFFFF"
       },
       "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "MEDIA_LIBRARY",
+        "NOTIFICATIONS",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
         "READ_EXTERNAL_STORAGE",
         "WRITE_EXTERNAL_STORAGE",
         "MEDIA_LIBRARY",
