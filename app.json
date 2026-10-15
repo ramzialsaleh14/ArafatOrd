@@ -4,12 +4,12 @@
     "slug": "ArafatOrd",
     "version": "2.0.1",
     "orientation": "portrait",
-    "owner": "ramzialsaleh14",
+    "owner": "ramzialsaleh18",
     "icon": "./assets/logo.png",
     "updates": {
       "fallbackToCacheTimeout": 0,
       "enabled": true,
-      "url": "https://u.expo.dev/a4ba0d29-9005-471a-b9fe-668eefcfc944"
+      "url": "https://u.expo.dev/c26b9c03-d6bf-4966-8f12-6fb9fa577ace"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -54,7 +54,7 @@
     "description": "",
     "extra": {
       "eas": {
-        "projectId": "a4ba0d29-9005-471a-b9fe-668eefcfc944"
+        "projectId": "c26b9c03-d6bf-4966-8f12-6fb9fa577ace"
       }
     },
     "plugins": [
